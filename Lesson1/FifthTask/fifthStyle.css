@@ -1,0 +1,29 @@
+body{
+    background-image: url("images/Background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 20px 60px;
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 270px;
+    object-fit: fill;
+    display: inline-block;
+    margin: 15px 15px;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+}
+p{
+    width: 200px;
+    display: inline-block;
+    color: whitesmoke;
+    margin: 10px 15px;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+}
+h1{
+    color: whitesmoke;
+    text-align: center;
+}

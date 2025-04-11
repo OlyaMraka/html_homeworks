@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+}
+.Container{
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 5px;
+}
+.Card{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.Card p{
+    font-size: 25px;
+}
+.dancing-script-400
+{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}

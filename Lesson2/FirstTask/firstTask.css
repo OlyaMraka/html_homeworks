@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+h1, h2{
+    margin: 0;
+    text-align: center;
+    padding: 30px;
+}
+body
+{
+    height: 100vh;
+    margin: 0 60px;
+    font-family: "Candal", sans-serif;
+}
+.Wrapper
+{
+    height: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Wrapper div{
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    height: 250px;
+    border: 3px solid lightgray;
+    border-radius: 20%;
+    flex-direction: column;
+}
+.Wrapper img{
+    height: 80%;
+    width: 100%;
+    object-fit: fill;
+}
+.Wrapper p{
+    margin: 25px;
+    text-align: center;
+}
+hr{
+    margin: 25px;
+    border: 1px solid lightgray;
+}

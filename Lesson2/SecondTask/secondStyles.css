@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+}
+.Wrapper{
+    height: 40%;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Shape{
+    height: 100px;
+    width: 100px;
+    background-color: #dc1313;
+    transition: 3s;
+}
+.Shape:hover{
+    background-color: gray;
+    transition: 3s;
+    border-radius: 100%;
+}

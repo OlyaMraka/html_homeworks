@@ -1,0 +1,20 @@
+body{
+    background-color: rgba(247, 245, 242);
+    font-family: "Arial Narrow", Helvetica, sans-serif;
+    font-weight: normal;
+    margin-left: 60px;
+}
+p{
+    font-size: 80px;
+    padding: 10px 30px;
+    text-align: center;
+    margin: 1px 5px;
+    display: inline-block;
+    background-color: rgb(227, 223, 218);
+}
+h2{
+    color: rgb(77, 75, 75);
+    font-weight: normal;
+    font-size: 40px;
+    margin-left: 5px;
+}

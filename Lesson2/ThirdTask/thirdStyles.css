@@ -26,6 +26,7 @@ body
     background-color: rgba(226, 243, 235, 0.80);
     border-radius: 3%;
     transition: 1s;
+    box-shadow: 0 0 13px -1px rgba(255,255,255,0.5);
 }
 .MonthCard h1{
     color: rgb(45, 46, 45);

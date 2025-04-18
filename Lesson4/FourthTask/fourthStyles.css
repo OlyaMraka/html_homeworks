@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 4vh;
+    background-color: #D9D9D9;
+}
+main{
+    display: flex;
+}
+.LeftSection{
+    display: flex;
+}
+.LeftDiv{
+    height: 86vh;
+    width: 29vw;
+    background-color: #A4A4A4;
+}
+.RightDiv{
+    height: 86vh;
+    width: 31vw;
+    background-color: #C1C1C1;
+}
+.RightSection{
+    display: flex;
+    flex-direction: column;
+}
+.TopDiv{
+    width: 40vw;
+    height: 43vh;
+    background-color: #7F7A7A;
+}
+.BottomDiv{
+    width: 40vw;
+    height: 43vh;
+    background-color: #6B6161;
+}
+footer{
+    height: 10vh;
+    background-color: #D9D9D9;
+}

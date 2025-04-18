@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header, footer{
+    height: 22vh;
+    background-color: #D9D9D9;
+}
+main{
+    display: flex;
+}
+aside{
+    height: 56vh;
+    width: 27vw;
+    background-color: #C0BDBD;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+.Top{
+    width: 46vw;
+    height: 28vh;
+    background-color: #827878;
+}
+.Bottom{
+    width: 46vw;
+    height: 28vh;
+    background-color: #B7ADAD;
+}

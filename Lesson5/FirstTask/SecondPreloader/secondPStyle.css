@@ -1,0 +1,21 @@
+.circle{
+    margin: 200px auto;
+    width: 100px;
+    height: 100px;
+    animation: second-preloader 3s ease-in-out infinite alternate;
+}
+@keyframes second-preloader {
+    0%{
+        border-radius: 30%;
+        background: #9b2a2a;
+        background: linear-gradient(90deg,rgba(155, 42, 42, 1) 0%, rgba(199, 104, 87, 1) 48%, rgba(251, 255, 0, 1) 100%);
+        box-shadow: 0 0 45px 30px rgb(255, 185, 135);
+    }
+    100%{
+        transform: scale(1.7) rotate(360deg);
+        background: #3f9b2a;
+        background: linear-gradient(97deg,rgba(63, 155, 42, 1) 0%, rgba(149, 199, 87, 1) 48%, rgba(251, 255, 0, 1) 100%);
+        box-shadow: 0 0 45px 30px rgb(143, 255, 135);
+        border-radius: 100%;
+    }
+}

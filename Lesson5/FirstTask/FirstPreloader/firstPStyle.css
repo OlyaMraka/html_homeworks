@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.square
+{
+    width: 200px;
+    height: 200px;
+    background-color: lightcyan;
+    margin: 200px auto;
+    animation: first-preloader 2s linear infinite alternate;
+}
+@keyframes first-preloader {
+    0%{
+        border-radius: 25%;
+        transform: skew(70deg);
+        background-color: lightgreen;
+        border: 2px solid green;
+    }
+    50%{
+        border-radius: 50%;
+        background-color: lightseagreen;
+        border: 2px solid seagreen;
+    }
+    100%{
+        border-radius: 25%;
+        transform: skew(-70deg);
+        background-color: lightcyan;
+        border: 2px solid cyan;
+    }
+}

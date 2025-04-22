@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.circle{
+    height: 150px;
+    width: 150px;
+    margin: 200px auto;
+    border-radius: 100%;
+    animation: third-preloader 3s ease-in-out infinite alternate;
+}
+@keyframes third-preloader {
+    0%{
+        background: #EEAECA;
+        background: radial-gradient(circle, rgb(250, 132, 183) 0%, rgb(102, 166, 241) 100%);
+        box-shadow: -26px 0 25px 0 rgb(150, 170, 246);
+        translate: -400px;
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        background: #EEAECA;
+        background: radial-gradient(circle, rgb(250, 132, 183) 0%, rgb(102, 166, 241) 100%);
+        box-shadow: 26px 0 25px 0 rgb(150, 170, 246);
+        translate: 400px;
+    }
+
+}

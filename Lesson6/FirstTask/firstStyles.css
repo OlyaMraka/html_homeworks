@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.first-list, .second-list, .third-list, .fourth-list, .fifth-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border: 1px solid lightcoral;
+    border-radius: 20px;
+}
+
+.wrapper>.first-list>ul>li:nth-child(2n){
+    color: lightpink;
+}
+.wrapper>.second-list>ul>li:nth-child(2n - 1){
+    font-size: 22px;
+}
+.wrapper>.third-list>ul>li:nth-child(2n + 4):after{
+    content: "!";
+}
+.wrapper>.fourth-list>ul>li:last-child{
+    color: plum;
+}
+.wrapper>.fifth-list>ul>li:first-letter{
+    font-size: 30px;
+    color: red;
+}

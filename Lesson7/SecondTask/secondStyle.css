@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+/* -------------------- Header ---------------------*/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 113px;
+    width: 100%;
+    background: #24204A;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+.header-container{
+    width: 1152px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header>.header-container>nav>ul{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    align-items: center;
+}
+header>.header-container>nav>ul>li>a{
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+header>.header-container>h2{
+    color: #E5E5E5;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0.6;
+}
+/* --------------------------- One-Posotion Section ----------------------------*/
+.one-posotion{
+    height: 692px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 180px;
+    background: #24204A;
+}
+.one-posotion-container
+{
+    width: 1152px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.info-part{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 32px;
+}
+.one-posotion-button{
+    width: 145px;
+    height: 41px;
+    border: none;
+    border-radius: 8px;
+    background: #4B4864;
+    color: #8E88C1;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: 0.8px;
+}
+.one-posotion h1{
+    width: 261px;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+.one-posotion p{
+    width: 570px;
+    height: 85px;
+    color: #8E88C1;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: 0.8px;
+}
+.about-button{
+    width: 200px;
+    height: 56px;
+    border-radius: 8px;
+    background: #3F50E7;
+    box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.photo-part{
+    width: 375px;
+    height: 411px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #827EAC;
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
+}
+.photo-part img{
+    width: 318px;
+    height: 318px;
+    filter: drop-shadow(10px 20px 50px rgba(0, 0, 0, 0.2));
+}
+/* -------------------------- Sun-Items --------------------------*/
+.sun-items{
+    /*padding: 50px 115px 152px 115px;*/
+    height: 764px;
+    background: #071341;
+}
+.sun-items-container{
+    width: 1152px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.temperature-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.one-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.sun-photo
+{
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.orange{
+    background: #FF6853;
+}
+.pink{
+    background: #FF537C;
+}
+.cyan{
+    background: #80D2C4;
+}
+.blue{
+    background: #3F50E7;
+}
+.green{
+    background: #95CB7C;
+}
+.sun-text{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.sun-text h3{
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.sun-text p{
+    width: 101px;
+    color: #8E88C1;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+.sun-items-container h2{
+    width: 1074px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px; /* 116.667% */
+}
+.sun-info{
+    color: #8E88C1;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+.sun-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sun-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    width: 209px;
+    height: 206px;
+    border-radius: 8px;
+    border: 2px solid #8E88C1;
+}
+.sun-card p{
+    width: 178px;
+    color: #8E88C1;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.8px;
+}
+.map iframe
+{
+    display: block;
+    height: 664px;
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 94px;
+    background: #071341;
+}
+footer a{
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 200%; /* 24px */
+}
